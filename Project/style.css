@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin-left: 12.5%;
+    width: 75%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+}
+.header .logo{
+    width: 75px;
+    height: 75px;
+    margin-left: 5%;
+}
+.header .logo img{
+    width: 100%;
+    border-radius: 50px;
+}
+.header .navbar {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .navbar a{
+    color: #000;
+    font-size: 25px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.header .navbar a:hover{
+    text-decoration: underline;
+    color: #f00;
+    transition:  0.5s;
+    font-weight: bold;
+}
+.header .icon{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+.header .icon #search-btn:hover{
+    text-decoration: underline;
+    color: #f00;
+    transition:  0.5s;
+    font-weight: bold;
+}
+.header .icon #user-btn:hover{
+    text-decoration: underline;
+    color: #f00;
+    transition:  0.5s;
+    font-weight: bold;
+}
+.container .cover{
+    margin-left: 12.5%;
+    width: 75%;
+    height: 300px;
+    background-color: #f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover img{
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12.5%;
+}
+.subject{
+    display: flex;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 300px;
+    /* background-color: rgb(153, 153, 153); */
+}
+h2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #f00;
+    font-family: 'Bokor';
+    font-size: 30px;
+}
+.subject .box {
+    margin-top: 20px;
+    margin-left: 2.1%;
+    width: 22.5%;
+    height: 270px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 0 0 6px 6px ;
+}
+.subject .box .pic{
+    width: 78%;
+    height: 180px;
+    display: flex;
+    margin-left: 11%;
+    border-radius: 0 0 12px 12px ;
+    background-color: blue;
+}
+.subject .box .pic img{
+    width: 100%;
+    border-radius: 0 0 7px 7px ;
+}
+.subject .box .description h2{
+    margin-left: 11%;
+    width: 78%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.subject .box .description p{
+    margin-left: 11%;
+    width: 78%;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+.class{
+    margin-top: 20px;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 150vh;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+}
+.real{
+    padding: 5px;
+    margin-top: 0px;
+    width:100%;
+    height: auto;
+    display: flex;
+}
+.pic{
+    width: 35%;
+    margin-left: 20px;
+    height: 200px;
+    border-radius: 12px 0 0 12px ;
+    background-color: blue;
+}
+.pic img{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px 0 0 12px ;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.real .description{
+    width: 65%;
+    padding: 0;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+.real .description ul{
+    list-style-type: none;
+}
+.real .description ul li a{
+    padding: 2px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.real .description p{
+    font-size: 17px;
+    margin-top: 5px;
+    display: block;
+}
+.real .description b{
+    font-family: 'Battambang';
+    font-size: 17px;
+    display: block;
+    margin: 0;
+}
+.real .description h2{
+    display: block;
+}
+.type{
+    display: flex;
+    align-items: center;
+}
+.type b{
+    width: 88%;
+}
+.type b span{
+    font-weight: bold;
+    color: rgb(0, 76, 255);
+}
+.type a{
+    margin-right: 20px;
+    width: 12%;
+    height:25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: rgb(252, 72, 72);
+}
+.type a:hover{
+    color: rgb(247, 247, 247);
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: rgb(0, 27, 102);
+}
+.class .read-more{
+    width: 96px;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 46%;
+    text-decoration: none;
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: rgb(248, 34, 34);
+}
+.class .read-more:hover{
+    color: #000;
+    border-radius: 5px;
+    margin-top: 27px;
+    transition: 0.5s;
+    background-color: rgb(62, 58, 252);
+}
+.animation{
+    margin-top: 20px;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 300px;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px 6px 0 0 ;
+}
+.story{
+    width: 23%;
+    height: 270px;
+    margin-left: 30px;
+    border: 5px rgb(58, 78, 255);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px black;
+}
+.story img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    width: 96%;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 260px;
+}
+.g-map{
+    margin-left: 12.5%;
+    width: 75%;
+    height: 570px;
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.g-map .map{
+    margin-top: 30px;
+    width: 30.5%;
+    height: 470px;
+    background-color: rgb(175, 175, 175);
+    margin-left: 2.1%;
+}
+.google-map{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+    background-color: #f00;
+}
+.google-map .map{
+    margin: 0;
+    padding: 0;
+    width: 98.5%;
+    height: 296px;
+}
+b {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Bokor';
+}
+p{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Hanuman';
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    margin-left: 12.5%;
+    width: 75%;
+    height: 470px;
+    border: #000 2px;
+    /* background-color: rgb(235, 235, 235); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    margin-top: 10px;
+    width: 86%;
+    height: 350px;
+    border: #000 2px;
+}
+form legend{
+    font-weight: bold;
+    color: #f00;
+    font-size: 25px;
+}
+form .name{
+    margin: 10px 10px;
+    width: 96%;
+    height: 30px;
+}
+form .email{
+    margin: 10px 10px;
+    width: 96%;
+    height: 30px;
+}
+form textarea{
+    margin: 10px 10px;
+    width: 96%;
+    height: 150px;
+}
+form :placeholder-shown{
+    font-size: 20px;
+    margin-left: 10px;
+}
+form button{
+    width: 96px;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 84%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.75s;
+    background-color: rgb(248, 34, 34);
+}
+form button:hover{
+    color: #000;
+    border-radius: 5px;
+    transition: 0.75s;
+    background-color: rgb(57, 247, 40);
+}
+.footer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 250px;
+    border: #000 2px;
+    background-color: rgb(99, 98, 98);
+}
+.footer .etec{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+}
+.footer .etec img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.footer .etec b{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: -5px;
+}
+.footer .etec b span{
+    color: #f00;
+}
+.footer .etec h3{
+    font-size: 20px;
+    font-family: 'Bokor';
+}
+.etec .logo-etec{
+    display: flex;
+}
+.for-me{
+    width: 50%;
+    height: auto;
+}
+.for-me p{
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-left: 40%;
+    margin-top: 20%;
+    font-weight: bold;
+    color: #000;
+}
+h4{
+    font-size: 15px;
+    color: rgb(150, 149, 149);
+    margin-top: 96px;
+    margin-left: 49%;
+}
